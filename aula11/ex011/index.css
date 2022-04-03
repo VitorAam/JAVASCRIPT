@@ -1,0 +1,9 @@
+body {
+    font-size: 20pt;
+    background-color: black;
+    color: white;
+}
+
+input#nacionality {
+    font-size: 0.8em;
+}
