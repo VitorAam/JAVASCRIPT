@@ -8,4 +8,3 @@ function verificar(){
         response.innerHTML += `<p>Se estiver correto, você é estrangeiro!!!</p>`
     }
 }
-    
