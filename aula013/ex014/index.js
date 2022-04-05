@@ -1,5 +1,4 @@
-var horário = new Date().getHours();
-var hora = Number(horário)
+var hora = new Date().getHours();
 window.document.querySelector('p#hours_container').innerHTML = `Agora são ${hora} horas.`
 if (12 > hora && hora >= 6) {
     //manhã
