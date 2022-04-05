@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <main>
+        <section>
+            <div id="main_content">
+                <form action="#">
+                    <div id="birth_year_container">
+                        <label for="birth_year">Ano de nascimento: </label>
+                        <input type="number" name="birth_year" id="birth_year">
+                    </div>
+                    <div id="gender_container">
+                        <span>Sexo: </span>
+                        <input type="radio" name="gender" id="man" checked>
+                        <label for="man">Masculino</label>
+                        <input type="radio" name="gender" id="woman">
+                        <label for="woman">Feminino</label>
+                    </div>
+                    <input type="button" id="verify" value="Verificar" onclick="verificar()"></input>
+                </form>
+                <div id="detected">
+                    Preencha os dados acima para ver o resultado!
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p id="copyright">© VitinhoDoJS</p>
+    </footer>
+</body>
+
+</html>
