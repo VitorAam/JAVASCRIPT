@@ -22,3 +22,11 @@ footer {
     text-align: center;
     font-style: italic;
 }
+
+#result_container{
+    margin: 2vh auto; 
+}
+
+#table {
+    min-width: 250px;
+}
